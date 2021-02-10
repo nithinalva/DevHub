@@ -1,0 +1,5 @@
+{
+  "mongoURI" : "mongodb+srv://user010:GHv7J76cVBnJXXa@devconnector.iraa4.mongodb.net/test?retryWrites=true&w=majority",
+
+  "JSONSecretKey" : "Mercy"
+}
