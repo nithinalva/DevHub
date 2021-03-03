@@ -18,11 +18,11 @@ app.get('/',(req,res)=>res.send('API Running'));
 app.use('/api/user', require('./routes/api/user'));
 
 
-app.use('/api/Authentication',require('./routes/api/auth'))
+app.use('/api/Authentication',require('./routes/api/auth'));
 
-app.use('/api/UserProfile',require('./routes/api/profile'))
+app.use('/api/UserProfile',require('./routes/api/profile'));
 //defining routes
- 
+
 
 
 

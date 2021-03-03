@@ -32,9 +32,9 @@ router.post('/', [
         return res.status(400).json({errors:errors.array()});       //returns a array of errors
     }
     
-    const {name,email,password}=req.body;
+    const {name,email,password}=req.body; //object destructuring ...
 
-    //req.body is nothing but {
+    //req.body is nothing but { 
 //   name: ' nithin s k',
 //   email: 'nsk254@gmail.com',
 //   password: 'MErcy2468!'
@@ -64,7 +64,7 @@ router.post('/', [
             const salt=await bcrpyt.genSalt(10); //bcrypt returns the prmise func
             user.password=await bcrpyt.hash(password,salt);
 
-            await user.save();
+            await user.save();          //saves the details into the schema
 
             //setting up the jwt
             const payload={
