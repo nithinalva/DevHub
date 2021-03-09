@@ -1,5 +1,9 @@
 {
   "mongoURI" : "mongodb+srv://user010:GHv7J76cVBnJXXa@devconnector.iraa4.mongodb.net/test?retryWrites=true&w=majority",
 
-  "JSONSecretKey" : "Mercy"
+  "JSONSecretKey" : "Mercy",
+
+  "GithubClientId": "24ffd50eb19139930614",
+
+  "GithubSecret" : "7a20b77e77222aed6091aacec9e70c1849dafec0"
 }

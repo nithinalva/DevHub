@@ -19,7 +19,8 @@ module.exports=function(req,res,next){
         try{
 
             const decoded=jwt.verify(token,config.get("JSONSecretKey"));
-            req.user=decoded.user;
+            req.user=decoded.user; //******* */
+            // console.log(req.user)
             next();
 
 

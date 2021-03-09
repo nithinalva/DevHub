@@ -21,6 +21,9 @@ app.use('/api/user', require('./routes/api/user'));
 app.use('/api/Authentication',require('./routes/api/auth'));
 
 app.use('/api/UserProfile',require('./routes/api/profile'));
+
+
+app.use('/api/posts' ,require('./routes/api/post'));
 //defining routes
 
 
